@@ -20,14 +20,20 @@
   src: local('Lato Light Italic'), local('Lato-LightItalic'), url(fonts/lato-light-italic.woff) format('woff');
 }
 
+
 body{
 	/*padding-top: 75px;*/
 	font-family: 'Lato', sans-serif !important;
+	padding-top: 79px;
 }
 
 .icon-logo{
 	height:40px;
 	/*margin-top: -13px;*/
+}
+
+.navbar-wrapper .navbar {
+border-radius: 0px;
 }
 
 .navbar-inverse{
@@ -48,23 +54,95 @@ body{
 
 .nav li a{
 	padding: 29px;
+	color:#C5EEFF;
+}
+
+.nav.navbar-nav li a{
+	padding: 29px;
+	color:#C5EEFF;
 }
 
 h1{
 color:orange;
 text-align:left;
 }
+
+
+#myCarousel{
+	height: 400px;
+	margin-bottom: 0px;
+}
+
+
+.navbar{
+	background-color: #573B24;
+}
+
+.carousel .item {
+height: 420px;
+padding:10px;
+background-color: #688E56;
+}
+
+.carousel-text-box{
+	padding:20px;
+	padding-left: 60px;
+	/*text-shadow:0 1px 2px rgba(173,190,166,1);*/
+	text-shadow:0 1px 2px rgba(255,255,255,.6);
+	/*text-shadow:0 1px 2px rgba(0,0,0,0.8);*/
+}
+
+.carousel-text{
+	color:#062A00;
+}
+
+.carousel-text a{
+	color: #F8FBFC;
+	text-shadow:0 1px 2px rgba(0,0,0,0.6);
+}
+
+.carousel-indicators {
+bottom: -60px;
+/*background-color:#000;*/
+}
+
+.carousel-indicators li {
+	border:solid 1px #573B24;
+}
+
+.carousel-indicators .active {
+	background-color:#573B24;
+}
+
+.carousel-control{
+	height:420px;
+}
+
 .img-profile{
 	max-width: 100px;
 	
+}
+.img-small{
+	width:600px;
+	height:400px;
+}
+
+.no-padding{
+  padding:0px !important;
 }
 
 .img-thumb{
 	max-width:460px;
 }
 
+
+
 p{
 	font-size: 14px;
+}
+
+.marketing{
+	padding-top: 60px;
 }
 
 .marketing .text{
