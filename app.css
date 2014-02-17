@@ -26,13 +26,18 @@ body{
 	padding-top: 79px;
 }
 
-.icon-logo{
-	height:40px;
+/*.icon-logo{
+	height:200px;
 	/*margin-top: -13px;*/
+}*/
+
+@media (min-width: 768px)
+.navbar-wrapper .navbar {
+	border-radius: 0px;
 }
 
 .navbar-wrapper .navbar {
-border-radius: 0px;
+	border-radius: 0px;
 }
 
 .navbar-inverse{
@@ -88,7 +93,7 @@ background-color: #688E56;
 
 .carousel-text-box{
 	padding:20px;
-	padding-left: 60px;
+	padding-left: 100px;
 	/*text-shadow:0 1px 2px rgba(173,190,166,1);*/
 	text-shadow:0 1px 2px rgba(255,255,255,.6);
 	/*text-shadow:0 1px 2px rgba(0,0,0,0.8);*/
@@ -96,6 +101,11 @@ background-color: #688E56;
 
 .carousel-text{
 	color:#062A00;
+}
+
+h1.carousel-text{
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 .carousel-text a{
