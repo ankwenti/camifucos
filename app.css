@@ -74,6 +74,11 @@ color:#688E56;
 text-align:left;
 }
 
+.profile{
+	height:120px;
+	padding: 10px;
+	/*background-color: #bbb;*/
+}
 
 #myCarousel{
 	height: 400px;
